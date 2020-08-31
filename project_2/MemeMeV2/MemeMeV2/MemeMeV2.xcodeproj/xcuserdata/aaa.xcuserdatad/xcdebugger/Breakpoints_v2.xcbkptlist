@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "81ED718A-0F66-4080-89A6-EF9977F0D9F4"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CC2234E4-AA9A-4F52-B3B3-52AE6ADEB331"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MemeMeV2/Controller/CollectionImageCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C1B8AE3C-2F5F-4C60-B961-EC5D94481471"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MemeMeV2/Controller/MeMeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
+            landmarkName = "MeMeViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "C1B8AE3C-2F5F-4C60-B961-EC5D94481471 - d252bba8089942e7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MemeMeV2.MeMeViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MemeMeV2.MeMeViewController"
+                  moduleName = "MemeMeV2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aaa/Desktop/computerscience/ProgrammingLanguage/Swift/Nano/ios_nano/project_2/MemeMeV2/MemeMeV2/MemeMeV2/Controller/MeMeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "8"
+                  endingLineNumber = "8"
+                  offsetFromSymbolStart = "351">
+               </Location>
+               <Location
+                  uuid = "C1B8AE3C-2F5F-4C60-B961-EC5D94481471 - a2613b11bcbcd13d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MemeMeV2.MeMeViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MemeMeV2.MeMeViewController&gt;"
+                  moduleName = "MemeMeV2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aaa/Desktop/computerscience/ProgrammingLanguage/Swift/Nano/ios_nano/project_2/MemeMeV2/MemeMeV2/MemeMeV2/Controller/MeMeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "8"
+                  endingLineNumber = "8"
+                  offsetFromSymbolStart = "292">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

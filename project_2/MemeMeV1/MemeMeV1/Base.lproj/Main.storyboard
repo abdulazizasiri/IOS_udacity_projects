@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MemeMeV1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tabBar tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BJK-sE-u0Q">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="fTb-vd-CZh"/>
+                                </constraints>
+                                <items>
+                                    <tabBarItem tag="2" image="camera.fill" catalog="system" id="qIF-Wa-ryc"/>
+                                    <tabBarItem tag="1" title="Album" id="bU8-hE-dIX"/>
+                                </items>
+                            </tabBar>
+                            <tabBar tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EYI-22-4nT">
+                                <rect key="frame" x="8" y="44" width="398" height="49"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="VbE-pX-TJi"/>
+                                </constraints>
+                                <items>
+                                    <tabBarItem tag="4" image="square.and.arrow.up" catalog="system" id="FDA-tH-hdF"/>
+                                    <tabBarItem tag="3" title="Cancel" id="hQ1-Gh-NMm"/>
+                                </items>
+                            </tabBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2Q3-BO-RCA">
+                                <rect key="frame" x="0.0" y="93" width="414" height="720"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Top" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rZI-oE-SrM">
+                                <rect key="frame" x="10" y="142" width="394" height="60"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="MPq-bb-7B8"/>
+                                </constraints>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="43"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Bottom" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="99m-Ch-ho7">
+                                <rect key="frame" x="10" y="734" width="394" height="60"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="BZj-6C-YCF"/>
+                                </constraints>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="43"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="BJK-sE-u0Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0ZC-8y-baq"/>
+                            <constraint firstItem="EYI-22-4nT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="1tp-QT-Ig4"/>
+                            <constraint firstItem="2Q3-BO-RCA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6Jl-aa-5w1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BJK-sE-u0Q" secondAttribute="bottom" id="6L2-CG-JzH"/>
+                            <constraint firstItem="rZI-oE-SrM" firstAttribute="top" secondItem="EYI-22-4nT" secondAttribute="bottom" constant="49" id="8Ni-8X-7Op"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BJK-sE-u0Q" secondAttribute="trailing" id="GKc-cO-LRH"/>
+                            <constraint firstItem="2Q3-BO-RCA" firstAttribute="top" secondItem="EYI-22-4nT" secondAttribute="bottom" id="NTn-IB-cHU"/>
+                            <constraint firstItem="99m-Ch-ho7" firstAttribute="top" secondItem="rZI-oE-SrM" secondAttribute="bottom" constant="532" id="NWj-2d-wAz"/>
+                            <constraint firstItem="99m-Ch-ho7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="U2U-Ao-NZk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="99m-Ch-ho7" secondAttribute="trailing" constant="10" id="VD0-Gv-yu9"/>
+                            <constraint firstItem="rZI-oE-SrM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="VYu-fl-wmz"/>
+                            <constraint firstItem="BJK-sE-u0Q" firstAttribute="top" secondItem="2Q3-BO-RCA" secondAttribute="bottom" id="Xqs-OY-iFA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2Q3-BO-RCA" secondAttribute="trailing" id="aSh-gm-NG8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rZI-oE-SrM" secondAttribute="trailing" constant="10" id="hsw-K3-h0y"/>
+                            <constraint firstAttribute="trailing" secondItem="EYI-22-4nT" secondAttribute="trailing" constant="8" id="rI1-gB-gkY"/>
+                            <constraint firstItem="EYI-22-4nT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ulz-ZE-Q12"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="bottomComment" destination="99m-Ch-ho7" id="cNe-n0-hag"/>
+                        <outlet property="imagePickerView" destination="2Q3-BO-RCA" id="zX9-pb-VTo"/>
+                        <outlet property="topComment" destination="rZI-oE-SrM" id="Oul-cm-eZN"/>
+                        <outletCollection property="tabs" destination="EYI-22-4nT" collectionClass="NSMutableArray" id="M2g-Wd-nML"/>
+                        <outletCollection property="tabs" destination="BJK-sE-u0Q" collectionClass="NSMutableArray" id="3ai-b4-GjO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="133.92857142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="camera.fill" catalog="system" width="128" height="96"/>
+        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
+    </resources>
+</document>
